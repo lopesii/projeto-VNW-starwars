@@ -4,7 +4,7 @@
     margin-top: 50px;
   }
   
-  .box_salmao {
+  .boxSalmao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     padding-top: 4vw;
   }
   
-  .box_salmao h2:first-child {
+  .boxSalmao h2:first-child {
     width: 28vw;
     color: white;
     text-transform: uppercase;
@@ -23,27 +23,27 @@
     padding-bottom: 2vw;
   }
   
-  .box_salmao p:nth-child(2) {
+  .boxSalmao p:nth-child(2) {
     width: 28vw;
     color: white;
     padding-bottom: 2vw;
     opacity: 0.7;
   }
   
-  .box_salmao p:last-child {
+  .boxSalmao p:last-child {
     width: 28vw;
     color: white;
     opacity: 0.7;
     padding-block: 2vw;
   }
   
-  .box_logos {
+  .boxLogos {
     display: flex;
     gap: 1vw;
     padding-bottom: 3vw;
   }
   
-  .box_logos img {
+  .boxLogos img {
     width: 14vw;
     cursor: pointer;
   }
@@ -93,30 +93,30 @@
       margin-top: 20vw;
     }
 
-    .box_salmao {
+    .boxSalmao {
      width: 100%;
      padding-bottom: 250px;
     }
 
-    .box_salmao h2:first-child  {
+    .boxSalmao h2:first-child  {
       width: 100%;
       text-align: center;
     }
 
-    .box_salmao p:nth-child(2) {
+    .boxSalmao p:nth-child(2) {
       width: 100%;
       padding-left: 40px;
       padding-right: 40px;
     }
 
-    .box_salmao p:last-child {
+    .boxSalmao p:last-child {
       width: 100%;
       padding-top: 20px;
       padding-left: 40px;
       padding-right: 40px;
     }
 
-    .box_logos {
+    .boxLogos {
       justify-content: center;
       gap: 20px;
     }
@@ -128,7 +128,7 @@
       left:0;
     }
     
-    .box_logos img {
+    .boxLogos img {
       margin-top: 10px;
       width: 39%;
       justify-content: center;

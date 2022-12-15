@@ -11,16 +11,16 @@
     padding-left: 1vw;
   }
   
-  .sobreJogo_info{
+  .sobreJogoInfo{
     text-align: right;
   }
 
-  .sobreJogo_info h2 {
+  .sobreJogoInfo h2 {
     font-size: 24px;
     font-weight: 700; 
 }
 
-.sobreJogo_info h2::after {
+.sobreJogoInfo h2::after {
     content: "";
     margin: 15px 0px;
     margin-left: auto;
@@ -30,7 +30,7 @@
     background-color: #000000;
 }
 
-.sobreJogo_info p {
+.sobreJogoInfo p {
   font-size: 20px;
     line-height: 25px;
     width: 26vw;
@@ -44,24 +44,24 @@
     flex-direction: column-reverse;
   }
 
-  .sobreJogo_info h2 {
+  .sobreJogoInfo h2 {
   margin-top: 10px;
   font-size: 15px;
   }
 
-  .sobreJogo_info h2::after {
+  .sobreJogoInfo h2::after {
     width: 120px;
     margin-top: 5px;
   }
 
-  .sobreJogo_info p {
+  .sobreJogoInfo p {
     font-size: 14px;
     width: 100%;
     line-height: 17px;
     text-align: right;
   }
 
-  .box_starwars-game {
+  .boxStarwarsGame {
     width: 180px;
     display: block;
     margin-left: auto;

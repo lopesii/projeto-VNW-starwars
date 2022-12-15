@@ -1,4 +1,4 @@
-.atributos_galeria {
+.atributosgaleria {
     display: flex;
     justify-content: center;
   }
@@ -24,7 +24,7 @@
     right: 4.5%;
   }
   
-  .image_effect {
+  .imageEffect {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -39,13 +39,13 @@
     padding: 9%;
   }
   
-  .image_effect h2 {
+  .imageEffect h2 {
     text-transform: uppercase;
     color: white;
     width: 2%;
   }
   
-  .image_effect p {
+  .imageEffect p {
     color: rgba(255, 255, 255, 0.6);
   }
   
@@ -57,7 +57,7 @@
     font-size: 0.675vw;
   }
   
-  .image_effect  button {
+  .imageEffect  button {
     position: relative;
     width: 30%;
     padding: 8px 16px;
@@ -74,7 +74,7 @@
     width: 36%;
   }
   
-  .image_effect  button::after {
+  .imageEffect  button::after {
     content: "";
     position: absolute;
     width: 10vw;
@@ -88,15 +88,15 @@
     z-index: -1;
   }
   
-  .image_effect  button:hover::after {
+  .imageEffect  button:hover::after {
     transform: translate(-50%, 100%);
   }
   
-  .image_effect  button:hover {
+  .imageEffect  button:hover {
     color: black;
   }
   
-  .box-primeiraImg:hover .image_effect  {
+  .boxPrimeiraImg:hover .imageEffect  {
     transform: scale(1.1);
     opacity: 1;
   }
@@ -110,14 +110,14 @@
     width: 100%;
   }
   
-  .cardImage:hover .image_effect {
+  .cardImage:hover .imageEffect {
     transform: scale(1.1);
     opacity: 1;
   }
   
 
   @media (min-width: 375px) and (max-width: 481px) {
-    .atributos_galeria {
+    .atributosgaleria {
       flex-direction: column;
       margin-left: auto;
       margin-right: auto;

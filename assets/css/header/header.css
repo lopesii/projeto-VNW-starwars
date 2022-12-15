@@ -8,13 +8,13 @@ header {
     height: 37.970625vw;
   }
   
- .container {
+ .containerOne {
     width: 100%;
     height: 100%;
     position: relative;
   }
   
- .kylon_img {
+ .kylon {
     width: 62vw;
     position: absolute;
     z-index: 1;
@@ -22,25 +22,25 @@ header {
     transform: translate(-50%);
   }
   
- .palavraStar {
+ .Star {
     width: 20vw;
     position: absolute;
     left: 23.6%;
     top: 55%;
   }
   
- .palavraStar img {
+ .Star img {
     width: 100%;
   }
   
- .palavraWars {
+ .Wars {
     width: 20vw;
     position: absolute;
     top: 55%;
     right: 16.2vw;
   }
   
-.palavraWars img {
+.Wars img {
     width: 100%;
   }
   
