@@ -1,0 +1,90 @@
+
+.redCard {
+    background: url(../../../pictures/redcard.png) no-repeat center top;
+    background-size: cover;
+    width: 20.68vw;
+    height: 30vw;
+    padding: 5% 1.5%;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: -2.5vw;
+    z-index: 1;
+  }
+  
+  .redCard h2 {
+      width: 50%;
+      font-weight: 400;
+      font-size: 35px;
+      text-transform: uppercase;
+      text-align: center;
+  }
+  
+  .redCard p:nth-child(2) {
+      text-align: justify;
+    width: 100%;
+  }
+  
+   .redCard p:last-child {
+    position: relative;
+    top: -12%;
+    font-size: 0.5rem;
+    right: -25%;
+    opacity: 0.5;
+  }
+  
+.redCard button {
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2% 10%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+.redCard button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.2);
+    backdrop-filter: blur(1px);
+  }
+  
+
+     
+  @media (min-width: 375px) and (max-width: 481px) {
+    .redCard {
+      top: 30px;
+      text-align: center;
+    width: 180px;
+    height: 100%;
+    }
+
+    .redCard h2 {
+      font-size: 25px;
+      width: 60%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .redCard p:nth-child(2) {
+      font-size: 13px;
+      padding: 0 20px;
+      text-align: left;
+  
+    }
+
+    .redCard p:last-child {
+      right: 0;
+    }
+
+    .redCard button {
+      width: 100px;
+      font-size: 12px;
+    }
+}

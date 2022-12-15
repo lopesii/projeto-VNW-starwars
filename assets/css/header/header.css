@@ -1,0 +1,46 @@
+@import url(crieSuaLegiao.css);
+
+header {
+    background: url(../../../pictures/background.png) center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 37.970625vw;
+  }
+  
+ .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+ .kylon_img {
+    width: 62vw;
+    position: absolute;
+    z-index: 1;
+    left: 46%;
+    transform: translate(-50%);
+  }
+  
+ .palavraStar {
+    width: 20vw;
+    position: absolute;
+    left: 23.6%;
+    top: 55%;
+  }
+  
+ .palavraStar img {
+    width: 100%;
+  }
+  
+ .palavraWars {
+    width: 20vw;
+    position: absolute;
+    top: 55%;
+    right: 16.2vw;
+  }
+  
+.palavraWars img {
+    width: 100%;
+  }
+  

@@ -1,0 +1,26 @@
+@import url(buttons.css);
+
+.comoJogar {
+    position: relative;
+  }
+
+  .comoJogar {
+    padding-bottom: 9vw;
+  }
+  
+  .stormDeCapa img {
+    width: 23vw;
+    position: absolute;
+    top: -15vw;
+    left: 8.875vw;
+  }
+  
+  @media (min-width: 375px) and (max-width: 480px) {
+    .stormDeCapa img  {
+      width: 95vw;
+      left: 0;
+      margin-left: -145px;
+    }
+
+
+  }

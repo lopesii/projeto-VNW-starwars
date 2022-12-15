@@ -1,0 +1,19 @@
+.divisao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 310px;
+    height: 4.5px;
+    width: 77.2%;
+    display: block;
+    background-color: #707070;
+  }
+  
+
+  @media (min-width: 375px) and (max-width: 481px) {
+    .divisao{
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 68%;
+    }
+}

@@ -1,0 +1,58 @@
+
+.crieSuaLegiao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 5vw;
+    transform: scale(1.5);
+    position: absolute;
+    right: 20%;
+    bottom: 2.5625vw;
+    text-transform: uppercase;
+  }
+  
+.crieSuaLegiao h2 {
+    font-weight: 400;
+    font-size: .7vw;
+  }
+  
+.crieSuaLegiao span {
+    font-weight: 700;
+  }
+  
+.line {
+    height: 1px;
+    border-radius: 10px;
+    background-color: black;
+    margin: .5vw 0;
+  }
+  
+ .legiaoButtonSelect {
+    display: flex;
+    align-items: center;
+  }
+  
+  .legiaoButtonSelect p:first-child {
+    font-size: 0.7rem;
+  }
+  
+.legiaoButtonSelect p:nth-child(2) {
+    font-size: 0.5rem;
+  }
+  
+.legiaoButtonSelect .seletores {
+    display: flex;
+    padding-left: .1rem;
+    gap: .1rem;
+  }
+  
+.seletores button {
+    background-color: #a9bdc1;
+    color: #050606;
+    cursor: pointer;
+    border: none;
+    padding: 0 .2vw;
+    text-align: center;
+    font-size: .5vw;
+    font-weight: 800;
+  }

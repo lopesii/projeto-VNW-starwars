@@ -1,0 +1,33 @@
+ @import url(cardRed.css);
+ @import url(sobreJogo.css);
+ 
+ .redCardEsobreJogo_background {
+    background-image: url(../../../pictures/background_comece-a-jogar.png);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .redCardEsobreJogo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16.375vw;
+    align-items: flex-end;
+  }
+
+
+     
+  @media (min-width: 375px) and (max-width: 481px) {
+    .redCardEsobreJogo {
+    flex-direction: column;
+    position: relative;
+    }
+
+    .redCardEsobreJogo_background {
+      background-position: center;
+      background-size: 100%;
+      height: 390px;
+
+
+    }
+}

@@ -1,0 +1,75 @@
+
+  .sobreJogo {
+    display: flex;
+    width: 60%;
+    padding-bottom: 2.4vw;
+  }
+  
+  .sobreJogo img {
+    width: 24vw;
+    height: 13vw;
+    padding-left: 1vw;
+  }
+  
+  .sobreJogo_info{
+    text-align: right;
+  }
+
+  .sobreJogo_info h2 {
+    font-size: 24px;
+    font-weight: 700; 
+}
+
+.sobreJogo_info h2::after {
+    content: "";
+    margin: 15px 0px;
+    margin-left: auto;
+    width: 175px;
+    height: 3px;
+    display: block;
+    background-color: #000000;
+}
+
+.sobreJogo_info p {
+  font-size: 20px;
+    line-height: 25px;
+    width: 26vw;
+}
+
+
+@media (min-width: 375px) and (max-width: 481px) {
+  .sobreJogo {
+    width: 100%;
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .sobreJogo_info h2 {
+  margin-top: 10px;
+  font-size: 15px;
+  }
+
+  .sobreJogo_info h2::after {
+    width: 120px;
+    margin-top: 5px;
+  }
+
+  .sobreJogo_info p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 17px;
+    text-align: right;
+  }
+
+  .box_starwars-game {
+    width: 180px;
+    display: block;
+    margin-left: auto;
+  }
+
+  .sobreJogo img {
+    width: 100%;
+    height: 100px;
+    padding-left: 0px;
+  }
+}

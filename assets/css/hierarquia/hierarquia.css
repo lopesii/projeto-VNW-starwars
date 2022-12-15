@@ -1,0 +1,60 @@
+
+  .hierarquia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+  }
+  
+  
+  .hierarquiaContainer {
+      display: flex;
+      flex-direction: column;
+      width: 80.3vw;
+      margin: 0 auto;
+      align-items: flex-end;
+      padding-top: 100px;
+    }
+    
+    .hierarquiaImage,
+  .hierarquiaImage img {
+    width: 100%;
+}
+
+.hierarquiaContainer p {
+    text-align: right;
+    width: 41vw;
+    font-size: 0.875rem;
+    padding-top: 8px;
+    color: white;
+    opacity: 0.7;
+}
+
+.hierarquia h2 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 10vw;
+  padding-bottom: 7vw;
+  font-weight: 500;
+ font-family: 'Sovereign';
+}
+
+@media (min-width: 375px) and (max-width: 481px) {
+  .hierarquiaContainer {
+   padding-top: 20px;
+   width: 100%;
+  }
+
+  
+  .hierarquiaContainer p {
+    width: 90%;
+    padding-right: 20px;
+  }
+
+  .hierarquia h2 {
+    font-size: 15px;
+    margin-left: 42vw;
+  }
+}

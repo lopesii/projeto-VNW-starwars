@@ -1,0 +1,102 @@
+ 
+  #box_buttons {
+    display: flex;
+    gap: 116px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 97px;
+  }
+  
+  #box_buttons h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    transition: font-weight .5s ease-in-out;
+  
+  }
+  
+  #box_buttons .buttonSelecao {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 37px;
+    cursor: pointer;
+  
+    width: 10.5925vw;
+  
+  }
+  
+  .buttonSelecao::after {
+      content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    background-color: #ff5a56;
+  }
+  
+  .buttonSelecao:hover::after {
+    right: 0;
+  }
+  
+  .buttonSelecao:hover.lineButton {
+    display: none;
+  }
+  
+  .button:hover .lineButton {
+    background-color: #ff5a56;
+  }
+  
+#box_buttons .button:hover h2 {
+  font-weight: bolder;
+}
+  
+  #box_buttons div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #box_buttons p {
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .buttonSelecao p {
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+    z-index: 2;
+  }
+  
+  .lineButton{
+    height: 4.5px;
+    background-color: black;
+    margin: 0 auto;
+    width: 35%;
+    transition: background-color .5s ease-in-out;
+  }
+  
+  @media (min-width: 375px) and (max-width: 480px) {
+    #box_buttons {
+      padding-top: 0px;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0px;
+    margin-left:40vw;
+    margin-top: 10px;
+
+    }
+
+    #box_buttons .buttonSelecao  {
+      width: 100%;
+    }
+}

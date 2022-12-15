@@ -1,0 +1,114 @@
+.estruturaDeJogo_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .DarthMaul img {
+    width: 40vw;
+    height: auto;
+    position: relative;
+    top: 52px;
+    left: 151px;
+  }
+  
+  .estruturaDeJogo_list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 4.25vw;
+    top: 129px;
+  }
+
+  .estruturaDeJogo_title {
+    font-size: 45px;
+    padding-bottom: 1.5vw;
+    text-align: right;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  
+  .estruturaDeJogo_title h2 span {
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .estruturaDeJogo_list ul {
+    text-transform: uppercase;
+    font-size: 23px;
+    gap: 1.25vw;
+  }
+  
+  .estruturaDeJogo_list ul li {
+    list-style-type: none;
+    width: 450px;
+    text-align: end;
+    padding-right: 10px;
+  }
+  
+  .estruturaDeJogo_list ul li:hover {
+    cursor: pointer;
+    background-color: #d74430;
+    border: solid none;
+    color: white;
+  }
+  
+  .estruturaDeJogo_title,
+  .estruturaDeJogo_list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .ReyNonSkywalker img {
+    width: 20.5vw;
+    height: auto;
+    position: relative;
+    top: 75px;
+  }
+
+  
+  @media (min-width: 375px) and (max-width: 480px) {
+    .estruturaDeJogo_container{
+      position: relative;
+      
+    }
+  
+    .DarthMaul img {
+      padding-top: 10px;
+      left: 0;
+      top: 0;
+      margin-right: 50px;
+    }
+
+    .ReyNonSkywalker {
+      margin-left: -15px;
+    }
+
+    .ReyNonSkywalker img {
+      top: 0;
+      padding-top: 10px;
+    }
+
+    .estruturaDeJogo_list {
+      top: 0;
+ 
+    }
+
+    .estruturaDeJogo_title {
+    
+      font-size: 20px;
+      margin-right: 0px;
+    }
+    .estruturaDeJogo_list ul {
+      font-size: 11px;
+      width: 110px;
+     
+    }
+
+    .estruturaDeJogo_list ul li {
+      padding-right: 0;
+    }
+}
+  
