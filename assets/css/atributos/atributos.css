@@ -6,13 +6,13 @@
   }
   
 
-  .atributos_title {
+  .atributosTitle {
     text-transform: uppercase;
     display: block;
     width: 100%;
   }
   
-  .atributos_title h2 {
+  .atributosTitle h2 {
     font-weight: 700;
     font-size: 35px;
     color: white;
@@ -37,7 +37,7 @@
   
  
   @media (min-width: 375px) and (max-width: 481px) {
-    .atributos_title h2 {
+    .atributosTitle h2 {
       font-size: 20px;
       margin-top: -100px;
       text-align: center;
